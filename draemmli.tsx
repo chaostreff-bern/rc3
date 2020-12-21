@@ -50,6 +50,10 @@
   </animation>
  </tile>
  <tile id="129">
+  <properties>
+   <property name="Author" value="draemmli (Roland Rytz)"/>
+   <property name="license" value="CC-BY-SA 4.0"/>
+  </properties>
   <animation>
    <frame tileid="129" duration="5000"/>
    <frame tileid="193" duration="200"/>
