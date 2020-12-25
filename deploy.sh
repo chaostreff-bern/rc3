@@ -8,7 +8,7 @@ sed -i 's/..\\\///g' dist/main.json
 find . -name \*.png -exec cp {} dist/ \;
 
 git add dist && git commit -m "Update"
-git push origin --delete gh-pages
-git subtree push --prefix dist origin gh-pages
+git push origin --delete main
+git subtree push --prefix dist origin main
 rm -rf dist
-git reset --hard origin/main
+git reset --hard origin/dev
