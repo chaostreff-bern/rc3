@@ -1165,7 +1165,7 @@
  </layer>
  <layer id="19" name="exit1" width="100" height="100">
   <properties>
-   <property name="exitUrl" value="https://lobby.maps.at.rc3.world/maps/erfas-south.json#start_chaostreff-bern"/>
+   <property name="exitUrl" value="{&lt;lobby&gt;/maps/erfas-south.json#start_chaostreff-bern}"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1272,7 +1272,7 @@
  </layer>
  <layer id="25" name="exit2" width="100" height="100">
   <properties>
-   <property name="exitUrl" value="https://lobby.maps.at.rc3.world/maps/erfas-south.json#start_chaostreff-bern"/>
+   <property name="exitUrl" value="{&lt;lobby&gt;/maps/erfas-south.json#start_chaostreff-bern}"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
