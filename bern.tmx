@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="26" nextobjectid="1">
+ <editorsettings>
+  <export target="../test/bern.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" name="Interiors_free_32x32" tilewidth="32" tileheight="32" tilecount="736" columns="16">
   <image source="Interiors_free_32x32.png" width="512" height="1472"/>
  </tileset>
@@ -1162,7 +1165,7 @@
  </layer>
  <layer id="19" name="exit1" width="100" height="100">
   <properties>
-   <property name="exitUrl" value="{&lt;lobby&gt;/maps/erfas-south.json#exit_ccc-basel}"/>
+   <property name="exitUrl" value="https://lobby.maps.at.rc3.world/maps/erfas-south.json#exit_ccc-basel"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1269,7 +1272,7 @@
  </layer>
  <layer id="25" name="exit2" width="100" height="100">
   <properties>
-   <property name="exitUrl" value="{&lt;lobby&gt;/maps/erfas-south.json#exit_ccc-basel}"/>
+   <property name="exitUrl" value="https://lobby.maps.at.rc3.world/maps/erfas-south.json#exit_ccc-basel"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
