@@ -319,7 +319,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"..\/Interiors_free_32x32.png",
+         "image":"Interiors_free_32x32.png",
          "imageheight":1472,
          "imagewidth":512,
          "margin":0,
@@ -332,7 +332,7 @@
         {
          "columns":32,
          "firstgid":737,
-         "image":"..\/obj_misk_atlas.png",
+         "image":"obj_misk_atlas.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
@@ -345,7 +345,7 @@
         {
          "columns":32,
          "firstgid":1761,
-         "image":"..\/build_atlas.png",
+         "image":"build_atlas.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
@@ -358,7 +358,7 @@
         {
          "columns":16,
          "firstgid":2785,
-         "image":"..\/upholstery.png",
+         "image":"upholstery.png",
          "imageheight":1024,
          "imagewidth":512,
          "margin":0,
@@ -371,7 +371,7 @@
         {
          "columns":20,
          "firstgid":3297,
-         "image":"..\/Chaostreffbern.png",
+         "image":"Chaostreffbern.png",
          "imageheight":640,
          "imagewidth":640,
          "margin":0,
@@ -394,7 +394,7 @@
         {
          "columns":15,
          "firstgid":3697,
-         "image":"..\/pride.png",
+         "image":"pride.png",
          "imageheight":352,
          "imagewidth":480,
          "margin":0,
@@ -407,7 +407,7 @@
         {
          "columns":5,
          "firstgid":3862,
-         "image":"..\/gleise.png",
+         "image":"gleise.png",
          "imageheight":64,
          "imagewidth":160,
          "margin":0,
@@ -420,7 +420,7 @@
         {
          "columns":7,
          "firstgid":3872,
-         "image":"..\/couch.png",
+         "image":"couch.png",
          "imageheight":160,
          "imagewidth":224,
          "margin":0,
@@ -433,7 +433,7 @@
         {
          "columns":2,
          "firstgid":3907,
-         "image":"..\/tastaturstern.png",
+         "image":"tastaturstern.png",
          "imageheight":64,
          "imagewidth":64,
          "margin":0,
@@ -446,7 +446,7 @@
         {
          "columns":2,
          "firstgid":3911,
-         "image":"..\/chair.png",
+         "image":"chair.png",
          "imageheight":96,
          "imagewidth":64,
          "margin":0,
@@ -459,7 +459,7 @@
         {
          "columns":32,
          "firstgid":3917,
-         "image":"..\/draemmli.png",
+         "image":"draemmli.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
