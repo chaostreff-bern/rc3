@@ -1,21 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="26" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="26" nextobjectid="1">
  <editorsettings>
   <export target="../test/bern.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="Interiors_free_32x32" tilewidth="32" tileheight="32" tilecount="736" columns="16">
+  <properties>
+   <property name="tilesetCopyright" value="https://limezu.itch.io/moderninteriors"/>
+  </properties>
   <image source="Interiors_free_32x32.png" width="512" height="1472"/>
  </tileset>
  <tileset firstgid="737" name="obj_misk_atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <properties>
+   <property name="tilesetCopyright" value="Check atlas_attribution.txt inside the repo"/>
+  </properties>
   <image source="obj_misk_atlas.png" width="1024" height="1024"/>
  </tileset>
  <tileset firstgid="1761" name="build_atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <properties>
+   <property name="tilesetCopyright" value="Check atlas_attribution.txt inside the repo"/>
+  </properties>
   <image source="build_atlas.png" width="1024" height="1024"/>
  </tileset>
  <tileset firstgid="2785" name="upholstery" tilewidth="32" tileheight="32" tilecount="512" columns="16">
+  <properties>
+   <property name="tilesetCopyright" value="CC-BY 4.0 https://opengameart.org/content/lpc-upholstery"/>
+  </properties>
   <image source="upholstery.png" width="512" height="1024"/>
  </tileset>
  <tileset firstgid="3297" name="Chaostreffbern" tilewidth="32" tileheight="32" tilecount="400" columns="20">
+  <properties>
+   <property name="tilesetCopyright" value="WTFPL by Chaostreffbern"/>
+  </properties>
   <image source="Chaostreffbern.png" width="640" height="640"/>
   <tile id="140">
    <properties>
@@ -24,21 +39,39 @@
   </tile>
  </tileset>
  <tileset firstgid="3697" name="pride" tilewidth="32" tileheight="32" tilecount="165" columns="15">
+  <properties>
+   <property name="tilesetCopyright" value="WTFPL by Chaostreffbern"/>
+  </properties>
   <image source="pride.png" width="480" height="352"/>
  </tileset>
  <tileset firstgid="3862" name="gleise" tilewidth="32" tileheight="32" tilecount="10" columns="5">
+  <properties>
+   <property name="tilesetCopyright" value="WTFPL by Chaostreffbern"/>
+  </properties>
   <image source="gleise.png" width="160" height="64"/>
  </tileset>
  <tileset firstgid="3872" name="couch" tilewidth="32" tileheight="32" tilecount="35" columns="7">
+  <properties>
+   <property name="tilesetCopyright" value="WTFPL by Chaostreffbern"/>
+  </properties>
   <image source="couch.png" width="224" height="160"/>
  </tileset>
  <tileset firstgid="3907" name="tastaturstern" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <properties>
+   <property name="tilesetCopyright" value="WTFPL by Chaostreffbern"/>
+  </properties>
   <image source="tastaturstern.png" width="64" height="64"/>
  </tileset>
  <tileset firstgid="3911" name="chair" tilewidth="32" tileheight="32" tilecount="6" columns="2">
+  <properties>
+   <property name="tilesetCopyright" value="WTFPL by Chaostreffbern"/>
+  </properties>
   <image source="chair.png" width="64" height="96"/>
  </tileset>
  <tileset firstgid="3917" name="draemmli" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <properties>
+   <property name="tilesetCopyright" value="CC-BY-SA 4.0 by draemmli (Roland Rytz)"/>
+  </properties>
   <image source="draemmli.png" width="1024" height="1024"/>
   <tile id="10">
    <animation>
@@ -117,6 +150,9 @@
   </tile>
  </tileset>
  <tileset firstgid="4941" name="worldExit" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <properties>
+   <property name="tilesetCopyright" value="by RC3"/>
+  </properties>
   <image source="worldExit.png" width="64" height="64"/>
  </tileset>
  <layer id="17" name="collision" width="100" height="100">
@@ -1165,7 +1201,7 @@
  </layer>
  <layer id="19" name="exit1" width="100" height="100">
   <properties>
-   <property name="exitUrl" value="{&lt;lobby&gt;/maps/erfas-south.json#start_chaostreff-bern}"/>
+   <property name="exitUrl" value="world://lobby/main.json"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1272,7 +1308,7 @@
  </layer>
  <layer id="25" name="exit2" width="100" height="100">
   <properties>
-   <property name="exitUrl" value="{&lt;lobby&gt;/maps/erfas-south.json#start_chaostreff-bern}"/>
+   <property name="exitUrl" value="world://lobby/main.json"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

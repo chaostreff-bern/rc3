@@ -4,8 +4,7 @@
     ],
     "extensionsPath": "extensions",
     "folders": [
-        ".",
-        "../../Nextcloud/chaostreff/rc3"
+        "."
     ],
     "objectTypesFile": ""
 }
